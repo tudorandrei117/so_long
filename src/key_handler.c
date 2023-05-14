@@ -6,7 +6,7 @@
 /*   By: tburlacu <tburlacu@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/01 20:09:36 by tburlacu          #+#    #+#             */
-/*   Updated: 2023/05/01 21:03:23 by tburlacu         ###   ########.fr       */
+/*   Updated: 2023/05/14 22:16:42 by tburlacu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ void	map_width(t_engine *engine, char *file)
 		engine_destroy(engine, "map file is invalid", 0);
 	}
 }
-
 
 int	key_controls(int keycode, t_engine *engine)
 {
